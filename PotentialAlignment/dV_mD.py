@@ -10,6 +10,8 @@ import numpy as np
 
 
 def read_input(file_name):
+  factor = None
+  plt_dir = 'a1'
   fp = open(file_name,'r')
   lines = fp.readlines()
   for il in range(len(lines)):
