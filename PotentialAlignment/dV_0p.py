@@ -8,7 +8,6 @@ import sys, string
 import numpy as np
 
 
-
 def read_input(file_name):
   cell_dim = 1.0
   factor = None
